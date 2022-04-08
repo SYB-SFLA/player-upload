@@ -1,0 +1,22 @@
+/* FOOTER - STYLE.CSS */
+
+.footer-contact-text {
+    color: #0a491f;
+    font-weight: bold;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer-contact-link {
+    color: #0a491f;
+    font-size: 1rem;
+}
+
+.footer-contact-link:hover {
+    color: #3eb3a5;
+}
+
+
