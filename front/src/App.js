@@ -3,8 +3,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-import Footer from '../src/components/Footer';
-// import Header from '../src/components/Header';
 import Homepage from './components/Homepage';
 import Upload from './components/Upload';
 import Files from './components/Files';
@@ -26,7 +24,6 @@ export default function App () {
             <Route path="upload" element={<Upload />} />
             <Route path="files" element={<Files />} />
           </Routes>
-          <Footer />
         </BrowserRouter>
         
       </div>
