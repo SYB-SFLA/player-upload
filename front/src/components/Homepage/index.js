@@ -20,10 +20,10 @@ export default function Homepage() {
                 </h2>
             </div>
             <div className="button-div">
-                <Button content="Upload" path="/upload" />
+                <Button className="btn-header" content="Upload" path="/upload" />
                 <Button content="Files" path="/files"/>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
