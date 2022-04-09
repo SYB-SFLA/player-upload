@@ -11,9 +11,7 @@ export default function Button({ content, path }) {
 
   return (
     <div className="btn-header">
-      <NavLink to={ path } activeClassName="selected">
-        { content }
-      </NavLink>
+      <NavLink to={ path } activeClassName="selected">{ content }</NavLink>
     </div>
   )
 }

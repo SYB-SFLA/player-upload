@@ -3,7 +3,8 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-import Form from '../Form';
+import Input from '../Input-Name';
+import FileInput from '../Input-File';
 import './style.css';
 
 
@@ -14,17 +15,8 @@ class Upload extends Component {
                 <Header />
                 <div className="div-upload">
                     <h3>Upload your video in low-res version on this platform</h3>
-                    <form>
-                        <label>
-                            Name video : <input type="text" name="name-video" placeholder="Name video" />
-                        </label>
-                        <br />
-                        <label>
-                            Url video : <input type="url" name="url-video" placeholder="Url video" />
-                        </label>
-                    </form>
-                    <br />
-                    <Form />
+                    <Input />
+                    <FileInput />
                     <br />
                 </div>
                 <br />
