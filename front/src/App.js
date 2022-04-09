@@ -21,8 +21,8 @@ export default function App () {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="upload" element={<Upload />} />
-            <Route path="files" element={<Files />} />
+            <Route path="/upload" element={<Upload />} />
+            <Route path="/files" element={<Files />} />
           </Routes>
         </BrowserRouter>
         

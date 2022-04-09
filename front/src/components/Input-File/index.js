@@ -3,6 +3,7 @@
 /* Gestion de l'input - File video */
 
 import React from 'react';
+import axios from 'axios';
 import './style.css';
 
 class FileInput extends React.Component {
@@ -16,6 +17,12 @@ class FileInput extends React.Component {
         alert(
             `Fichier sélectionné - ${this.fileInput.current.files[0].name} ​🎉​🍸​`
         );
+        axios
+            .post("http://localhost:3000/upload")
+            .then(res => console.log("Reponse de AXIOS", res))
+            .catch(error => console.log("Erreur de axios", error));
+        
+
     }
 
     render() {
@@ -23,7 +30,7 @@ class FileInput extends React.Component {
             <form onSubmit={this.handleSubmit}>
                 <label>
                     Select your video :
-                    <input type="file" ref={this.fileInput} />
+                    <input name="fileUploaded" type="file" ref={this.fileInput} />
                 </label>
                 <br />
                 <button type="submit">Upload your video</button>
