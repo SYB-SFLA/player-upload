@@ -1,9 +1,9 @@
 /* HOMEPAGE - INDEX.JS */
 
 import React from "react";
-import './style.css';
 import Button from "../Button";
 import Footer from '../Footer';
+import './style.css';
 
 
 export default function Homepage() {

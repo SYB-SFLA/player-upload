@@ -1,9 +1,8 @@
 /* NAVBAR - INDEX.JS */
 
 import React from 'react';
-import './style.css';
-
 import Button from "../Btn-Header";
+import './style.css';
 
 export default function NavBar() {
   return (

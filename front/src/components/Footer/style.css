@@ -14,11 +14,7 @@
 }
 
 .footer-contact-link:hover {
-    color: wheat;
-}
-
-.footer-contact-eolementhe:hover {
-    color: wheat;
+    text-decoration: underline;
 }
 
 .footer {
