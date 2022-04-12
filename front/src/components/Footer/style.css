@@ -21,3 +21,7 @@
     bottom: 0;
     margin-bottom: 1rem;
 }
+
+a.footer-contact-link:hover {
+    color: midnightblue;
+}
