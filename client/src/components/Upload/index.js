@@ -68,9 +68,13 @@ export default class Upload extends Component {
                                 type="text"
                                 name="nameVideo"
                                 placeholder='Name Video'
+                                onChange={this.onFileChange}
                             />
                         </label>
-                        <input type="file" name="myVideo" onChange={this.onFileChange} required />
+                        <input 
+                            type="file" 
+                            name="myVideo" 
+                            onChange={this.onFileChange} required />
                         <button
                             onClick={this.onFileUpload}>
                             Upload your video!

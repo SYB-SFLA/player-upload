@@ -9,12 +9,6 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      {/* Documentation: 
-        - https://reactrouter.com/docs/en/v6/upgrading/v5 - 
-        - https://stackoverflow.com/questions/69975792/error-home-is-not-a-route-component-all-component-children-of-routes-mus
-        - https://reactrouter.com/docs/en/v6/upgrading/v5
-        */}
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -22,7 +16,6 @@ export default function App() {
           <Route path="/files" element={<Files />} />
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 };
