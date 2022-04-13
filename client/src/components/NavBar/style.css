@@ -1,0 +1,21 @@
+/* NAVBAR - STYLE.CSS */
+
+nav {
+    height: 50px;
+}
+
+.list {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    color: midnightblue;
+    cursor: pointer;
+}
+
+.btn-header {
+    color: midnightblue;
+}

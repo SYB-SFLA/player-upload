@@ -1,0 +1,16 @@
+/* BTN-HEADER - STYLE.CSS */
+
+.btn-header {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.9rem;
+    font-size: 1.3rem;
+}
+
+a {
+    color: midnightblue;;
+}
+
+a:hover {
+    color: wheat;
+}
