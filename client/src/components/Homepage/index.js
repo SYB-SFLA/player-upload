@@ -1,6 +1,6 @@
 /* HOMEPAGE - INDEX.JS */
 
-import React from "react";
+import React from 'react';
 import Button from "../Button";
 import Footer from '../Footer';
 import './style.css';

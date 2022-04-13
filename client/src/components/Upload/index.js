@@ -55,6 +55,20 @@ export default class Upload extends Component {
         } 
     };
 
+    /* Display file as list */
+    renderData = (event) => {
+        // this.setState({ selectedFile: event.target.files[0]});
+        if(this.state.selectedFile) {
+            return (
+                <div className="renderData">
+                    <ul>
+                        <li>{this.state.selectedFile.name}</li>
+                    </ul>
+                </div>
+            );
+        }
+    }
+
     render() {
         return (
             <div>
@@ -81,6 +95,7 @@ export default class Upload extends Component {
                         </button>
                         {this.fileData()}
                     </form>
+                    {this.renderData()}
                 </div>
                 <Footer />
             </div>

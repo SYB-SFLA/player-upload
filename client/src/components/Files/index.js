@@ -1,44 +1,37 @@
 /* FILES - INDEX.JS */
 
-// import React, { useState, useEffect } from 'react';
-import Header from '../Header';
+import React from 'react';
+import Header from "../Header";
 import Footer from '../Footer';
-// import axios from 'axios';
 import './style.css';
 
-export default function Files() {
-    /* useState allows to use a local state in a component function */
-   /* [filesUploaded] => positional destructuring- Doc: https://fr.reactjs.org/docs/hooks-state.html*/
-    // const [filesUploaded] = useState([]);
 
-    // useEffect(() => {
-    //     axios
-    //         .get('http://localhost:5000/files/', {...filesUploaded})
-    //         .then(res => console.log("Response : route /files side front", res))
-    //         .catch(error => console.error("J'affiche mon erreur", error));
-    // })
-    
-    // return (
-    //     <div>
-    //         <Header />
-    //         <div className='hooks'>
-    //             <ul>
-    //                 {filesUploaded.map(file => {
-    //                     <li>{filesUploaded.nameVideo}</li>
-    //                 })};
-    //             </ul>
-    //         </div>
-    //         <Footer />
-    //     </div>
-    // )
+export default function Files() {
+
+    /* 
+    useState(): when data changes re-render the UI
+    useState(0): take first argument "0" for initialising state (default)
+    video =>  reactive value 
+    setList => setter
+    const [video, setList] = useState(0)
+    */
 
     return (
         <div>
             <Header />
-            
+            <div className='list-video'>
+                <p>List of low resolution videos: : </p>
+                <ul>
+                    <li>VIDEO 1</li>
+                    <li>VIDEO 2</li>
+                </ul> 
+                {/*
+                <video >
+                    <source src="/server/storage/Player Vidéo.mp4-.mp4" type="video/mp4"></source>
+                </video> 
+                */}
+            </div>
             <Footer />
         </div>
     )
 }
-
-

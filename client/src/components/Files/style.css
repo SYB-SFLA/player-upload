@@ -1,9 +1,22 @@
 /* FILES - STYLE.CSS */
 
-.hooks {
+.list-video {
     background-color: #9393c6;
     width: 100%;
     height: 100%;
     margin: auto;
     padding: 20rem;
+}
+
+p.list-video {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0 0 0 4px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }

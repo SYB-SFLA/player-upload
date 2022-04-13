@@ -60,7 +60,7 @@ const maxSize = 1 * 50000 * 50000;
 const upload = multer({
     storage: storage,
     limits: { fileSize: maxSize },
-    /* Function to control which files are accepted */ 
+    /* Function to control which files are accepted */
     fileFilter: function (req, file, callback) {
 
         /* Set the filetypes */
@@ -93,7 +93,7 @@ app.post('/upload', (req, res) => {
         error ? res.send(error) : res.send("Successful, video uploaded ! ")
     });
     // res.redirect('./');
-    
+
 });
 
 /* Route GET - Files */
