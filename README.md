@@ -5,13 +5,13 @@
 
 - **Home Page** (*preview*) 
   
-<img src="./img/Preview%20-%20HomePage.png">  
+<img src="./front/public/img/Preview%20-%20HomePage.png">  
 
 - **Upload video page in low-res version**  (*preview*) 
 
-<img src="./img/Preview%20-%20UploadRoute.png">
+<img src="./front/public/img/Preview%20-%20UploadRoute.png">
 
 
 - **List video page in low-res version** (*preview*)
 
-<img src="./img/Preview%20-%20FilesRoute.png">
+<img src="./front/public/img/Preview%20-%20FilesRoute.png">
